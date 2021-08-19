@@ -6,7 +6,7 @@
 #include <stdio.h>
 int main()
 {
-   int arr1[25], i,n;
+   int arr1[25], i,n,*ptr;
    printf("Input the number of elements to store in the array :");
    scanf("%d",&n);
    printf("Input elements of the array :\n",n);
