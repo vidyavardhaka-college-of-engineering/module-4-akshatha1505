@@ -7,18 +7,17 @@
 int main()
 {
    int arr1[25], i,n,*ptr;
-   printf("Input the number of elements to store in the array :");
+   printf("Input the number of elements to store in the array and the elements:");
    scanf("%d",&n);
-   printf("Input elements of the array :\n",n);
    for(i=0;i<n;i++)
       {
 	   scanf(" %d",&arr1[i]);
 	  }
-   ptr=&arr1;
-   printf("The elements you entered are : \n");
+    ptr=&arr1;
+   printf("The elements you entered are : ");
    for(i=0;i<n;i++)
       {
-	 printf("%d ",ptr[i]); //print the array elements
+	      printf("%d ",ptr[i]);
 	  }
 	   return 0;
 }
